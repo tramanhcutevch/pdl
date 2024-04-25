@@ -1,0 +1,14 @@
+C:\Users\trama\OneDrive\Máy tính\Phongkhachsnan\phongkhachsan\phongkhachsan\bin\Debug\phongkhachsan.exe.config
+C:\Users\trama\OneDrive\Máy tính\Phongkhachsnan\phongkhachsan\phongkhachsan\bin\Debug\phongkhachsan.exe
+C:\Users\trama\OneDrive\Máy tính\Phongkhachsnan\phongkhachsan\phongkhachsan\bin\Debug\phongkhachsan.pdb
+C:\Users\trama\OneDrive\Máy tính\Phongkhachsnan\phongkhachsan\phongkhachsan\bin\Debug\Guna.UI2.dll
+C:\Users\trama\OneDrive\Máy tính\Phongkhachsnan\phongkhachsan\phongkhachsan\obj\Debug\phongkhachsan.csproj.AssemblyReference.cache
+C:\Users\trama\OneDrive\Máy tính\Phongkhachsnan\phongkhachsan\phongkhachsan\obj\Debug\phongkhachsan.Form1.resources
+C:\Users\trama\OneDrive\Máy tính\Phongkhachsnan\phongkhachsan\phongkhachsan\obj\Debug\phongkhachsan.Properties.Resources.resources
+C:\Users\trama\OneDrive\Máy tính\Phongkhachsnan\phongkhachsan\phongkhachsan\obj\Debug\phongkhachsan.csproj.GenerateResource.cache
+C:\Users\trama\OneDrive\Máy tính\Phongkhachsnan\phongkhachsan\phongkhachsan\obj\Debug\phongkhachsan.csproj.CoreCompileInputs.cache
+C:\Users\trama\OneDrive\Máy tính\Phongkhachsnan\phongkhachsan\phongkhachsan\obj\Debug\phongkhachsan.csproj.CopyComplete
+C:\Users\trama\OneDrive\Máy tính\Phongkhachsnan\phongkhachsan\phongkhachsan\obj\Debug\phongkhachsan.exe
+C:\Users\trama\OneDrive\Máy tính\Phongkhachsnan\phongkhachsan\phongkhachsan\obj\Debug\phongkhachsan.pdb
+C:\Users\trama\OneDrive\Máy tính\Phongkhachsnan\phongkhachsan\phongkhachsan\obj\Debug\phongkhachsan.Dashboard.resources
+C:\Users\trama\OneDrive\Máy tính\Phongkhachsnan\phongkhachsan\phongkhachsan\obj\Debug\phongkhachsan.All.UC_AddRoom.resources
