@@ -31,15 +31,30 @@ namespace phongkhachsan
         {
             Application.Exit();
         }
+        private void Dashboard_Load(object sender, EventArgs e)
+        {
+            uC_AddRoom1.Visible = false;
+            uC_CustomerRes1.Visible = false;
+            btnAddRoom.PerformClick();
 
+        }
         private void btnCustomerRes_Click(object sender, EventArgs e)
         {
-
+            uC_CustomerRes1.Visible = true;
+            uC_CustomerRes1.BringToFront();
         }
 
         private void btnCheckOut_Click(object sender, EventArgs e)
         {
 
         }
+
+        private void uC_AddRoom1_Load(object sender, EventArgs e)
+        {
+            uC_AddRoom1.Visible = true;
+            uC_AddRoom1.BringToFront();
+        }
+
+       
     }
 }

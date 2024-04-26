@@ -41,7 +41,9 @@ namespace phongkhachsan
             this.btnCustomerRes = new Guna.UI2.WinForms.Guna2Button();
             this.btnAddRoom = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.uC_AddRoom1 = new phongkhachsan.All.UC_AddRoom();
+            this.uC_CustomerRes1 = new phongkhachsan.All.UC_CustomerRes();
             this.btn.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -52,7 +54,7 @@ namespace phongkhachsan
             this.btnExit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnExit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnExit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnExit.FillColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnExit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnExit.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnExit.ForeColor = System.Drawing.Color.White;
             this.btnExit.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.Image")));
@@ -85,6 +87,7 @@ namespace phongkhachsan
             this.btn.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.btn.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.btn.Controls.Add(this.uC_AddRoom1);
+            this.btn.Controls.Add(this.uC_CustomerRes1);
             this.btn.Location = new System.Drawing.Point(33, 203);
             this.btn.Name = "btn";
             this.btn.Size = new System.Drawing.Size(1882, 852);
@@ -92,7 +95,7 @@ namespace phongkhachsan
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.panel2.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Controls.Add(this.btnEmployee);
             this.panel2.Controls.Add(this.btnCustomerDetail);
@@ -102,7 +105,7 @@ namespace phongkhachsan
             this.panel2.ForeColor = System.Drawing.Color.Violet;
             this.panel2.Location = new System.Drawing.Point(96, 12);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1819, 169);
+            this.panel2.Size = new System.Drawing.Size(2100, 165);
             this.panel2.TabIndex = 4;
             // 
             // btnEmployee
@@ -113,6 +116,7 @@ namespace phongkhachsan
             this.btnEmployee.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnEmployee.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnEmployee.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnEmployee.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnEmployee.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnEmployee.ForeColor = System.Drawing.Color.White;
             this.btnEmployee.Image = ((System.Drawing.Image)(resources.GetObject("btnEmployee.Image")));
@@ -131,6 +135,7 @@ namespace phongkhachsan
             this.btnCustomerDetail.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnCustomerDetail.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnCustomerDetail.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnCustomerDetail.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnCustomerDetail.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnCustomerDetail.ForeColor = System.Drawing.Color.White;
             this.btnCustomerDetail.Image = ((System.Drawing.Image)(resources.GetObject("btnCustomerDetail.Image")));
@@ -150,6 +155,7 @@ namespace phongkhachsan
             this.btnCheckOut.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnCheckOut.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnCheckOut.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnCheckOut.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnCheckOut.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnCheckOut.ForeColor = System.Drawing.Color.White;
             this.btnCheckOut.Image = ((System.Drawing.Image)(resources.GetObject("btnCheckOut.Image")));
@@ -169,6 +175,7 @@ namespace phongkhachsan
             this.btnCustomerRes.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnCustomerRes.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnCustomerRes.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnCustomerRes.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnCustomerRes.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnCustomerRes.ForeColor = System.Drawing.Color.White;
             this.btnCustomerRes.Image = ((System.Drawing.Image)(resources.GetObject("btnCustomerRes.Image")));
@@ -188,7 +195,7 @@ namespace phongkhachsan
             this.btnAddRoom.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnAddRoom.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnAddRoom.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnAddRoom.FillColor = System.Drawing.SystemColors.Highlight;
+            this.btnAddRoom.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnAddRoom.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnAddRoom.ForeColor = System.Drawing.Color.White;
             this.btnAddRoom.Image = ((System.Drawing.Image)(resources.GetObject("btnAddRoom.Image")));
@@ -204,20 +211,33 @@ namespace phongkhachsan
             // 
             this.guna2Elipse1.TargetControl = this;
             // 
+            // guna2Elipse2
+            // 
+            this.guna2Elipse2.TargetControl = this;
+            // 
             // uC_AddRoom1
             // 
             this.uC_AddRoom1.BackColor = System.Drawing.Color.White;
             this.uC_AddRoom1.Location = new System.Drawing.Point(-2, -2);
             this.uC_AddRoom1.Name = "uC_AddRoom1";
-            this.uC_AddRoom1.Size = new System.Drawing.Size(1882, 852);
+            this.uC_AddRoom1.Size = new System.Drawing.Size(2100, 1000);
             this.uC_AddRoom1.TabIndex = 0;
+            this.uC_AddRoom1.Load += new System.EventHandler(this.uC_AddRoom1_Load);
+            // 
+            // uC_CustomerRes1
+            // 
+            this.uC_CustomerRes1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.uC_CustomerRes1.Location = new System.Drawing.Point(-2, -2);
+            this.uC_CustomerRes1.Name = "uC_CustomerRes1";
+            this.uC_CustomerRes1.Size = new System.Drawing.Size(2039, 1028);
+            this.uC_CustomerRes1.TabIndex = 5;
             // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1946, 1106);
+            this.BackColor = System.Drawing.Color.Thistle;
+            this.ClientSize = new System.Drawing.Size(2145, 1261);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.btn);
             this.Controls.Add(this.btnMinisize);
@@ -227,6 +247,7 @@ namespace phongkhachsan
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Dashboard_Load);
             this.btn.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -246,5 +267,7 @@ namespace phongkhachsan
         private Guna.UI2.WinForms.Guna2Button btnEmployee;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private All.UC_AddRoom uC_AddRoom1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
+        private All.UC_CustomerRes uC_CustomerRes1;
     }
 }
